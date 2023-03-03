@@ -13,6 +13,13 @@ namespace Caminho_do_Heroi
             Console.WriteLine(personagem.ToString());
             Console.ReadLine();
 
+            string arquivo = @"C:\Users\Eduardo\Desktop\Code\C\caminho_do_heroi\dados\"+personagem.Nome+personagem.GetType().Name +".txt";
+            using(StreamWriter sw = File.CreateText(arquivo)){
+                sw.WriteLine(personagem.GetType().Name);
+                sw.WriteLine(personagem.Nome);
+                sw.WriteLine(personagem.Pv);
+                sw.WriteLine(personagem.Pm);
+            }
         }
         static Personagem CriarPersonagem(string? nome,int tipo){
             if(tipo == 1)return new Guerreiro(nome);
