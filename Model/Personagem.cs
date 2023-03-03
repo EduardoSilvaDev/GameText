@@ -3,8 +3,8 @@ namespace caminho_do_heroi
     public class Personagem
     {
         private string? nome;
-        private int pv;     //hp
-        private int pm;     //mana
+        private int pv;     //pontos de vida
+        private int pm;     //pontos de magia
         private int level;
 
         public Personagem()
