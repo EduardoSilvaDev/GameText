@@ -1,0 +1,15 @@
+C:\Users\Eduardo\Desktop\Code\C\caminho_do_heroi\bin\Debug\net7.0\Caminho_do_Heroi.exe
+C:\Users\Eduardo\Desktop\Code\C\caminho_do_heroi\bin\Debug\net7.0\Caminho_do_Heroi.deps.json
+C:\Users\Eduardo\Desktop\Code\C\caminho_do_heroi\bin\Debug\net7.0\Caminho_do_Heroi.runtimeconfig.json
+C:\Users\Eduardo\Desktop\Code\C\caminho_do_heroi\bin\Debug\net7.0\Caminho_do_Heroi.dll
+C:\Users\Eduardo\Desktop\Code\C\caminho_do_heroi\bin\Debug\net7.0\Caminho_do_Heroi.pdb
+C:\Users\Eduardo\Desktop\Code\C\caminho_do_heroi\obj\Debug\net7.0\Caminho_do_Heroi.csproj.AssemblyReference.cache
+C:\Users\Eduardo\Desktop\Code\C\caminho_do_heroi\obj\Debug\net7.0\Caminho_do_Heroi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eduardo\Desktop\Code\C\caminho_do_heroi\obj\Debug\net7.0\Caminho_do_Heroi.AssemblyInfoInputs.cache
+C:\Users\Eduardo\Desktop\Code\C\caminho_do_heroi\obj\Debug\net7.0\Caminho_do_Heroi.AssemblyInfo.cs
+C:\Users\Eduardo\Desktop\Code\C\caminho_do_heroi\obj\Debug\net7.0\Caminho_do_Heroi.csproj.CoreCompileInputs.cache
+C:\Users\Eduardo\Desktop\Code\C\caminho_do_heroi\obj\Debug\net7.0\Caminho_do_Heroi.dll
+C:\Users\Eduardo\Desktop\Code\C\caminho_do_heroi\obj\Debug\net7.0\refint\Caminho_do_Heroi.dll
+C:\Users\Eduardo\Desktop\Code\C\caminho_do_heroi\obj\Debug\net7.0\Caminho_do_Heroi.pdb
+C:\Users\Eduardo\Desktop\Code\C\caminho_do_heroi\obj\Debug\net7.0\Caminho_do_Heroi.genruntimeconfig.cache
+C:\Users\Eduardo\Desktop\Code\C\caminho_do_heroi\obj\Debug\net7.0\ref\Caminho_do_Heroi.dll
