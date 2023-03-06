@@ -21,12 +21,11 @@ namespace caminho_do_heroi.Controller
 
             string caminho = Path.Combine(Directory.GetCurrentDirectory(),@"dados\"+personagem.Nome+".txt");
             using(StreamWriter sw = File.CreateText(caminho)){
-                sw.WriteLine(personagem.GetType().Name);
-                sw.WriteLine(personagem.Nome);
-                sw.WriteLine(personagem.Pv);
-                sw.WriteLine(personagem.Pm);
+                sw.WriteLine("Classe: " + personagem.GetType().Name);
+                sw.WriteLine("Nome: " + personagem.Nome);
+                sw.WriteLine("PV: " + personagem.Pv);
+                sw.WriteLine("PM: " + personagem.Pm);
             }
-
         }
         static public bool ExistsNameChar(string nome){
             string caminho = Path.Combine(Directory.GetCurrentDirectory(),"dados");

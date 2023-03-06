@@ -25,7 +25,7 @@ namespace caminho_do_heroi.View.Menu
         }
         static public void NewGame(){
             // duas funcoes para retornar os valores 
-            // serindo de parametro para criar o novo personagem
+            // inserindo-os de parametro para criar o novo personagem
 
             CreateChar._createChar(RetornaNome(),RetornaClasse());
             
@@ -65,8 +65,28 @@ namespace caminho_do_heroi.View.Menu
                 return classe;
             }
         }
-        static void LoadGame(){
+        static public void LoadGame(){
             // talvez precise receber algum para parametro para retornar um objeto
+            Console.Clear();
+            // string caminho = Path.Combine(Directory.GetCurrentDirectory(),"dados");
+            string[] files = Directory.GetFiles(Path.Combine(Directory.GetCurrentDirectory(),"dados"));
+            for(int i=0;i<files.Count();i++){
+                files[i] = Path.GetFileName(files[i]);
+                files[i] = files[i].Replace(".txt","");
+            }
+            int options=-1;
+            do{
+                Console.WriteLine("\t\tJogos Salvos\n");
+                for(int i=0;i<files.Count();i++)Console.WriteLine(i+1 + " - " + files[i]);
+                Console.WriteLine("0 - Voltar");
+                Console.Write("> ");
+                try{
+                    options = Convert.ToInt32(Console.ReadLine());
+                }catch(Exception){options=-1;};
+                if(options<0||options>files.Count())options=-1;
+                Console.Clear();
+            }while(options<0||options>files.Count());
+            if(options!=0)Console.WriteLine($"Voce Escolheu: {files[options-1]}");
         }
         static void DisplayInstructions(){
             // implementar as instrucoes

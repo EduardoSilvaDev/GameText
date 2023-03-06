@@ -1,0 +1,40 @@
+Se estivermos considerando apenas um aplicativo de console sem o ASP.NET, 
+podemos ainda aplicar o padrão MVC e estruturar nossos arquivos em pastas de acordo com suas funções:
+
+Models: Essa pasta conterá as classes que representam os modelos de dados que serão usados em seu aplicativo.
+
+Views: Para um aplicativo de console, essa pasta pode conter os arquivos de texto que representam as visualizações. 
+Esses arquivos podem ser arquivos de texto simples ou arquivos formatados, como arquivos CSV.
+
+Controllers: Essa pasta conterá as classes que contêm a lógica de controle para seu aplicativo. 
+Como estamos considerando um aplicativo de console, isso pode incluir a leitura de dados do usuário, 
+o processamento desses dados e a chamada de métodos de negócios que atualizam os modelos de dados.
+
+Services: Essa pasta conterá as classes que implementam a lógica de negócios para seu aplicativo.
+
+Eles podem ser divididos em classes de serviço separadas, dependendo das funcionalidades que oferecem.
+
+Utils: Essa pasta conterá classes e utilitários auxiliares que podem ser usados em todo o aplicativo.
+
+Program.cs: Este arquivo contém o método principal que é executado quando o aplicativo é iniciado. Ele pode instanciar a classe de controle e iniciar o loop de execução do aplicativo.
+
+Um exemplo básico de como organizar os arquivos em pastas seria:
+
+|--Models
+|  |--Product.cs
+|
+|--Views
+|  |--ProductView.txt
+|
+|--Controllers
+|  |--ProductController.cs
+|
+|--Services
+|  |--ProductService.cs
+|
+|--Utils
+|  |--InputReader.cs
+|  |--OutputWriter.cs
+|
+|--Program.cs
+

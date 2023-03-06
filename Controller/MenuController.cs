@@ -14,17 +14,20 @@ namespace caminho_do_heroi.Controller
                     Inicial.NewGame();
                 break;
                 case 2:
-                    Console.WriteLine("Carrega dados");
+                    // Console.WriteLine("Carrega dados");
+                    Inicial.LoadGame();
+                    Console.ReadLine();
                 break;
                 case 3:
                     Console.WriteLine("Instrucoes");
+                    Console.ReadLine();
                 break;
                 default:
                     Console.Clear();
                     Environment.Exit(0);
                 break;
             }
-            Console.ReadLine();
+            
             Console.Clear();
         }
     }

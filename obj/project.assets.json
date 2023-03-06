@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Eduardo\\Desktop\\Code\\C\\Caminho_do_Heroi\\Caminho_do_Heroi.csproj",
-      "projectName": "Caminho_do_Heroi",
-      "projectPath": "C:\\Users\\Eduardo\\Desktop\\Code\\C\\Caminho_do_Heroi\\Caminho_do_Heroi.csproj",
+      "projectUniqueName": "C:\\Users\\Eduardo\\Desktop\\gametext\\Caminho_Do_Heroi\\Caminho_Do_Heroi.csproj",
+      "projectName": "Caminho_Do_Heroi",
+      "projectPath": "C:\\Users\\Eduardo\\Desktop\\gametext\\Caminho_Do_Heroi\\Caminho_Do_Heroi.csproj",
       "packagesPath": "C:\\Users\\Eduardo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Eduardo\\Desktop\\Code\\C\\Caminho_do_Heroi\\obj\\",
+      "outputPath": "C:\\Users\\Eduardo\\Desktop\\gametext\\Caminho_Do_Heroi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Eduardo\\AppData\\Roaming\\NuGet\\NuGet.Config"

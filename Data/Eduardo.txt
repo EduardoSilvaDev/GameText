@@ -1,0 +1,5 @@
+Classe: Mago
+Nome: Eduardo
+PV: 10
+PM: 20
+Level: 2

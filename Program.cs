@@ -1,19 +1,18 @@
-﻿using caminho_do_heroi.Controller;
-using caminho_do_heroi.Objetos;
+﻿using Caminho_Do_Heroi.Controller;
+using Caminho_Do_Heroi.Controller.InGame;
+using Caminho_Do_Heroi.Utils;
 
-namespace Caminho_do_Heroi
+namespace Caminho_Do_Heroi
 {
-    class Program
+    internal class Program
     {
-        static public void Main(String[] args)
-        {
+        static void Main(String[] args){
+            MenuPrincipalController menu = new MenuPrincipalController();
             while(true){
-                MenuController menu = new MenuController();
-                menu.MenuPrincipal();
-                
-                // Console.ReadLine();
+                menu.inicio();
+                Game.Inicio();
+                Input.Await();
             }
         }
     }
 }
-
